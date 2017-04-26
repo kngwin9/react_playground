@@ -9,8 +9,21 @@
     padding: 18px;
     font-size: 28px;
     font-weight: bold;
-    background-color: deeppink;
+    background-color: lightblue;
     box-shadow: 3px 3px 8px black;
     border-radius: 15px;
     text-shadow: 2px 2px 4px black;
+}
+
+.home input {
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0 2px 3px black;
+    width: 50vw;
+    margin: 0 auto 15px;
+}
+
+.home .hidden {
+    display: none;
 }
