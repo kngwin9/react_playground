@@ -1,16 +1,11 @@
-import React from 'react';
-import './greeting.css';
+import React from 'react'
 
 const Greeting = (props) => {
-    const styles = {
-        color: props.color || 'deeppink'
-    };
-
-    return (
-        <div className="greeting-font">
-            <h2 style={styles}>Hello, { props.name }</h2>
-        </div>
-    )
+  return (
+      <div>
+          <h2>Hello, { props.name }</h2>
+      </div>
+  )
 };
 
 export default Greeting;
