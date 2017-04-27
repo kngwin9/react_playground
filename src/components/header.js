@@ -7,10 +7,10 @@ function Header() {
     return (
         <div>
             <h1>My Awesome App</h1>
-            <Greeting name="Bob"/>
-            <Greeting name="George"/>
-            <Greeting name="Heather"/>
-            <Greeting name="Karen"/>
+            <Greeting color="red" name="Bob"/>
+            <Greeting color="#00ff00" name="George"/>
+            <Greeting color="blue" name="Heather"/>
+            <Greeting color="#3192fa" name="Karen"/>
         </div>
     )
 }

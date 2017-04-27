@@ -1,5 +1,6 @@
 .greeting-font {
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Comic Sans MS";
+    color: rgba(150, 20, 200, .5);
 }
 

@@ -1,9 +1,14 @@
 import React from 'react'
+import './greeting.css';
 
 const Greeting = (props) => {
+    const styles = {
+        color: props.color
+    };
+
   return (
-      <div>
-          <h2>Hello, { props.name }</h2>
+      <div className="greeting-font">
+          <h2 style={ styles }>Hello, { props.name }</h2>
       </div>
   )
 };
