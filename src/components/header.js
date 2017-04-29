@@ -10,7 +10,8 @@ function Header() {
             <Greeting color="red" name="Bob"/>
             <Greeting color="#00ff00" name="George"/>
             <Greeting color="blue" name="Heather"/>
-            <Greeting color="#3192fa" name="Karen"/>
+            <Greeting color="rgba(150, 20, 200, .5)" name="Karen"/>
+            <Greeting name="Joan"/>
         </div>
     )
 }

@@ -2,11 +2,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 //  Importing Redux
 import { Provider } from 'react-redux';
 import { applyMiddleware, createStore } from 'redux';
 
 import App from './components/app';
+
+//  Importing Reducers
+import reducers from './reducers/index';
 
 //  Redux part 1.
 //  ApplyMiddleware = action goes through middleware so that you can manipulate the action. Any methods you pass in to ApplyMiddleware and applies it.
@@ -15,6 +19,8 @@ import App from './components/app';
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
-        <App />,
+        <Provider store={ createStoreWithMiddleware(reducers) }>
+            <App />
+        </Provider>,
     document.getElementById('root')
 );
