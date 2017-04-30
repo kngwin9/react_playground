@@ -1,5 +1,4 @@
 import { combineReducers } from 'redux';
-
 import appReducer from './app_reducer';
 
 //  Create variable to hold the result of combineReducers

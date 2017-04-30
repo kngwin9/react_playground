@@ -7,10 +7,9 @@
     margin: auto;
     border: none;
     padding: 18px;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
-    background-color: deeppink;
+    background-color: lightblue;
     box-shadow: 3px 3px 8px black;
     border-radius: 15px;
-    text-shadow: 2px 2px 4px black;
 }
